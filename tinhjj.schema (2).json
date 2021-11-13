@@ -1,0 +1,189 @@
+{
+  "id": 357134,
+  "num_rows": 1000,
+  "file_format": "json",
+  "name": "tinhjj",
+  "array": true,
+  "columns": [
+    {
+      "name": "StudentId",
+      "null_percentage": 0,
+      "type": "Row Number",
+      "formula": null
+    },
+    {
+      "name": "StudentName",
+      "null_percentage": 0,
+      "type": "First Name (Female)",
+      "formula": null
+    },
+    {
+      "name": "DepartmentName",
+      "null_percentage": 0,
+      "type": "Custom List",
+      "values": [
+        "DA",
+        "DH",
+        "PP"
+      ],
+      "selectionStyle": "custom",
+      "distribution": null,
+      "formula": null
+    },
+    {
+      "name": "HomePhone",
+      "null_percentage": 0,
+      "type": "Phone",
+      "format": "##########",
+      "formula": null
+    },
+    {
+      "name": "CollegeName",
+      "null_percentage": 0,
+      "type": "Custom List",
+      "values": [
+        "HCMUT",
+        "HCME"
+      ],
+      "selectionStyle": "custom",
+      "distribution": null,
+      "formula": null
+    },
+    {
+      "name": "BirthDay",
+      "null_percentage": 0,
+      "type": "Datetime",
+      "min": "11/14/1980",
+      "max": "11/14/2021",
+      "format": "%d/%m/%Y",
+      "formula": null
+    },
+    {
+      "name": "age",
+      "null_percentage": 0,
+      "type": "Number",
+      "min": 1,
+      "max": 100,
+      "decimals": 0,
+      "formula": null
+    },
+    {
+      "name": "BirthPlace",
+      "null_percentage": 0,
+      "type": "City",
+      "formula": null
+    },
+    {
+      "name": "Gender",
+      "null_percentage": 0,
+      "type": "Gender",
+      "formula": null
+    },
+    {
+      "name": "ClassStudentName",
+      "null_percentage": 0,
+      "type": "Custom List",
+      "values": [
+        "CI",
+        "CS"
+      ],
+      "selectionStyle": "custom",
+      "distribution": null,
+      "formula": null
+    },
+    {
+      "name": "OlogyName",
+      "null_percentage": 0,
+      "type": "Custom List",
+      "values": [
+        "CS1",
+        "CSI",
+        "CE"
+      ],
+      "selectionStyle": "custom",
+      "distribution": null,
+      "formula": null
+    },
+    {
+      "name": "StudyProgramID",
+      "null_percentage": 0,
+      "type": "Blank",
+      "formula": null
+    },
+    {
+      "name": "Scores",
+      "null_percentage": 0,
+      "type": "JSON Array",
+      "minItems": 0,
+      "maxItems": 5,
+      "formula": null
+    },
+    {
+      "name": "Scores.score",
+      "null_percentage": 0,
+      "type": "Number",
+      "min": 50,
+      "max": 100,
+      "decimals": 0,
+      "formula": null
+    },
+    {
+      "name": "Scores.type",
+      "null_percentage": 0,
+      "type": "Custom List",
+      "values": [
+        "quiz",
+        "exam",
+        "home"
+      ],
+      "selectionStyle": "custom",
+      "distribution": null,
+      "formula": null
+    },
+    {
+      "name": "AverageScore",
+      "null_percentage": 0,
+      "type": "Number",
+      "min": 1,
+      "max": 100,
+      "decimals": 0,
+      "formula": null
+    },
+    {
+      "name": "Address.city",
+      "null_percentage": 0,
+      "type": "Custom List",
+      "values": [
+        "HCM",
+        "HN",
+        "DN",
+        "CT",
+        "THANH HOA",
+        "AN GIANG"
+      ],
+      "selectionStyle": "custom",
+      "distribution": null,
+      "formula": null
+    },
+    {
+      "name": "Address.zip",
+      "null_percentage": 0,
+      "type": "Street Number",
+      "formula": null
+    },
+    {
+      "name": "Address.country",
+      "null_percentage": 0,
+      "type": "Custom List",
+      "values": [
+        "Viet Nam",
+        "China",
+        "Lao",
+        "USA"
+      ],
+      "selectionStyle": "custom",
+      "distribution": null,
+      "formula": null
+    }
+  ]
+}
