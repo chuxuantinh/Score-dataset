@@ -1,0 +1,112 @@
+[{
+  "_id": {
+    "$oid": "60fc472450d8ef12a9aed7d4"
+  },
+  "StudentId": "7701100258",
+  "StudentName": "Nguyễn Thanh Vân",
+  "DepartmentName": "Viện Đào tạo Sau đại học",
+  "HomePhone": "01268546677",
+  "CollegeName": "Trường Đại học Bách Khoa TPHCM",
+  "BirthDay": "1/6/1986",
+  "age": 34,
+  "BirthPlace": "Gia Lai",
+  "Gender": false,
+  "ClassStudentName": "ADBS",
+  "OlogyName": "Máy tính",
+  "CourseID": "CS2021",
+  "StudyProgramID": "CHK21CH_NH",
+  "Scores": [
+    {
+      "score": 60,
+      "type": "exam"
+    },
+    {
+      "score": 52,
+      "type": "quiz"
+    },
+    {
+      "score": 71,
+      "type": "homework"
+    }
+  ],
+  "AverageScore": 6.98,
+  "Address": {
+    "city": "Ho Chi Minh",
+    "zip": "13053",
+    "country": "Viet Nam"
+  }
+},{
+  "_id": {
+    "$oid": "60fc472450d8ef12a9aed7db"
+  },
+  "StudentId": "77011876741",
+  "StudentName": "Tống Dũng",
+  "DepartmentName": "Viện Đào tạo Sau đại học",
+  "HomePhone": "0985934635",
+  "CollegeName": "Trường Đại học Kinh Tế TPHCM",
+  "BirthDay": "8/7/1987",
+  "age": 41,
+  "BirthPlace": "Đồng Nai",
+  "Gender": true,
+  "ClassStudentName": "BANK",
+  "OlogyName": "Ngân hàng",
+  "CourseID": "CHK21",
+  "StudyProgramID": "21CH_NH1",
+  "Scores": [
+    {
+      "score": 70,
+      "type": "exam"
+    },
+    {
+      "score": 60,
+      "type": "quiz"
+    },
+    {
+      "score": 90,
+      "type": "homework"
+    }
+  ],
+  "AverageScore": 9,
+  "Address": {
+    "city": "Ho Chi Minh",
+    "zip": "13068",
+    "country": "Viet Nam"
+  }
+},{
+  "_id": {
+    "$oid": "60fc472450d8ef12a9aed9db"
+  },
+  "StudentId": "7701100781",
+  "StudentName": "Huy Tran",
+  "DepartmentName": "Viện Đào tạo Sau đại học",
+  "HomePhone": "0985934638",
+  "CollegeName": "Trường Đại học Bách Khoa TPHCM",
+  "BirthDay": "7/4/1998",
+  "age": 21,
+  "BirthPlace": "HCM",
+  "Gender": true,
+  "ClassStudentName": "ADBS",
+  "OlogyName": "Ngân hàng",
+  "CourseID": "CHK21",
+  "StudyProgramID": "CHK21CH_NH",
+  "Scores": [
+    {
+      "score": 80,
+      "type": "exam"
+    },
+    {
+      "score": 75,
+      "type": "quiz"
+    },
+    {
+      "score": 80,
+      "type": "homework"
+    }
+  ],
+  "AverageScore": 8,
+  "Address": {
+    "city": "Ho Chi Minh",
+    "zip": "14850",
+    "country": "Viet Nam"
+  }
+}]
