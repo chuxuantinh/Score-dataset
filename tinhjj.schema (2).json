@@ -1,10 +1,16 @@
 {
   "id": 357134,
-  "num_rows": 1000,
+  "num_rows": 3,
   "file_format": "json",
   "name": "tinhjj",
   "array": true,
   "columns": [
+    {
+      "name": "_id",
+      "null_percentage": 0,
+      "type": "MongoDB ObjectID",
+      "formula": null
+    },
     {
       "name": "StudentId",
       "null_percentage": 0,
@@ -53,9 +59,9 @@
       "name": "BirthDay",
       "null_percentage": 0,
       "type": "Datetime",
-      "min": "11/14/1980",
-      "max": "11/14/2021",
-      "format": "%d/%m/%Y",
+      "min": "01/05/1980",
+      "max": "01/09/1980",
+      "format": "%-d/%-m/%Y",
       "formula": null
     },
     {
@@ -114,8 +120,8 @@
       "name": "Scores",
       "null_percentage": 0,
       "type": "JSON Array",
-      "minItems": 0,
-      "maxItems": 5,
+      "minItems": 3,
+      "maxItems": 3,
       "formula": null
     },
     {
@@ -132,11 +138,11 @@
       "null_percentage": 0,
       "type": "Custom List",
       "values": [
-        "quiz",
         "exam",
-        "home"
+        "quiz",
+        "homework"
       ],
-      "selectionStyle": "custom",
+      "selectionStyle": "sequential",
       "distribution": null,
       "formula": null
     },
